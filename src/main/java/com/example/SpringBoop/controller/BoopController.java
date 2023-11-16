@@ -21,6 +21,7 @@ import java.time.format.DateTimeParseException;
 import java.util.*;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/boop")
 public class BoopController {
     @Autowired
